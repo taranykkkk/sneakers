@@ -52,7 +52,7 @@ const Drawer = ({ onCloseCart, onRemoveCart, opened }) => {
           <img
             onClick={onCloseCart}
             className="removeBtn"
-            src="/img/btn-remove.svg"
+            src="img/btn-remove.svg"
             alt="Remove"
           />
         </h2>
