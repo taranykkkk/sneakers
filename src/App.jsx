@@ -149,7 +149,7 @@ const App = () => {
         <Header onClickCart={() => setCartOpened(true)} cartItems={cartItems} />
         <Routes>
           <Route
-            path="sneakers"
+            path=""
             element={
               <Home
                 dataSneakers={dataSneakers}
