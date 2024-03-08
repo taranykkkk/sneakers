@@ -149,7 +149,7 @@ const App = () => {
         <Header onClickCart={() => setCartOpened(true)} cartItems={cartItems} />
         <Routes>
           <Route
-            path=""
+            path="/"
             element={
               <Home
                 dataSneakers={dataSneakers}
@@ -163,8 +163,8 @@ const App = () => {
               />
             }
           />
-          <Route path="favorites" element={<Favorites />} />
-          <Route path="orders" element={<Orders />} />
+          <Route path="/favorites" element={<Favorites />} />
+          <Route path="/orders" element={<Orders />} />
         </Routes>
       </div>
     </AppContext.Provider>
